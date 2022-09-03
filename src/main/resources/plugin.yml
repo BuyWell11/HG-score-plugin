@@ -1,0 +1,9 @@
+name: Hg_score
+version: '${project.version}'
+main: buywell.hg_score.Hg_score
+authors: [ BuyWell ]
+commands:
+  resettab:
+    description: reset all info
+  ifsuicide:
+    description: write this if someone suicide and score is incorrect
